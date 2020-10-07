@@ -2,11 +2,7 @@
 Go to this page if you wanna read english version [English Version](https://github.com/GlgApr/TorrentMega2GoogleDrive/blob/master/README-E.md)
 
 # Repo apaan ni man?
-Repo puyuh buat download dari torrent/mega.nz/direct link terus diupload ke Google Drive tercinta, support TeamDrive juga biar storagemu ga penuh + support Google Drive Index juga biar ga repot atur-atur izin..
-Anggap aja kalian udah tau tentang heroku, udah punya akunnya, minimal tau lah ya basicnya.
-
-# TUTORIAL LENGKAP?
-Klo butuh tutorial lengkap, ngomong aje ye, bakal ditulis di [Blog ini](https://bloggertamvan.com)
+Repo ini adalah fork dari repo https://github.com/kakamband/TorrentMega2GoogleDrive dengan tambahan fitur yang saya kumpulkan
 
 
 # Inspiration 
@@ -69,6 +65,7 @@ python3 generate_string_session.py
 - **MEGA_API_KEY**: API Mega.nz buat download dari mega.nz. Ambil di [Mega SDK Page](https://mega.nz/sdk)
 - **MEGA_EMAIL_ID**: Email mega.nz untuk make akun premium
 - **MEGA_PASSWORD**: Password mega.nz . Ga ngerti? Kosongin aja.
+- **UPTOBOX_TOKEN**: Uptobox token to mirror uptobox links. Get it from [Uptobox Premium Account](https://uptobox.com/my_account)
 
 Note: Kalian bisa atur maksimal proses download dalam 1 waktu di MAX_CONCURRENT_DOWNLOADS di aria.sh. Bawaannya itu 5
  
@@ -186,4 +183,5 @@ python3 add_to_team_drive.py -d SharedTeamDriveSrcID
 # THANKS TO
 - Izzy12
 - SVR666
+- jovanzers
 
